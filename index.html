@@ -9,20 +9,64 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="gameboard">
 
+   
+    <div class="gameboard">
+        <div class="playerOneDisplay">
+            <div class="information_container">
+                <div class="name"></div>
+                <div class="symbol">Playing   with : O</div>
+            </div>
+        </div>
         <div class="board_container">
             <div data="1"></div>
+            <div class="line1"></div>
             <div data="2"></div>
+            <div class="line2"></div>
             <div data="3"></div>
+            <div class="line3"></div>
             <div data="4"></div>
             <div data="5"></div>
             <div data="6"></div>
+            <div class="line4"></div>
             <div data="7"></div>
             <div data="8"></div>
             <div data="9"></div>
         </div>
+        <div class="playerTwoDisplay">
+            <div class="information_container">
+                <div class="name"></div>
+                <div class="symbol">Playing   with : X</div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="positioningdiv">
+        <div class="name_container">
+            <h2>Enter the names of the players</h2>
+            <div class="information_container">
+                <div class="player">
+                    <label for="player1_name">Player 1</label>
+                    <input type="text" id="player1_name">
+                </div>
+                <div class="player">
+                    <label for="player2_name">Player 2</label>
+                    <input type="text" id="player2_name">
+                </div>
+            </div>
+            <div class="play-button">
+                PLAY
+            </div>
+        </div>
+    </div>
+
+    <div class="winner_div">
+      <h2> </h2>
+      <h2 class="name"></h2>
+      <div class="play-button">
+        PLAY AGAIN!
+    </div>
     </div>
 </body>
 </html>
